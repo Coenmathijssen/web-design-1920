@@ -1,16 +1,26 @@
 // Make connection
 const socket = io()
 
-const button = document.getElementById('button')
-const buttonSec = document.getElementById('button-sec')
+const button = document.getElementById('play-button')
 
-function vibrate(ms) {
+function vibrate (ms) {
   navigator.vibrate(ms)
 }
 
-function vibratePattern () {
-  window.navigator.vibrate([100, 30, 100, 30, 100, 30, 200, 30, 200, 30, 200, 30, 100, 30, 100, 30, 100])
-}
+// function vibratePattern () {
+//   console.log('starting')
+//   document.getElementById('play-button').textContent = 'playing'
+//   document.getElementById('video').play()
+//   window.setTimeout(() => {
+//     console.log('joe')
+//     window.navigator.vibrate(1500)
+//   }, 53500)
+
+//   window.setTimeout(() => {
+//     window.navigator.vibrate(500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500)
+//   }, 56000)
+  window.navigator.vibrate([0, 53500, 1500, 18000, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 56000, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500])
+// }
 
 // Emit events
 button.addEventListener('click', () => {
@@ -19,11 +29,26 @@ button.addEventListener('click', () => {
 
 // Listen for events
 // Listening for een chat output
-socket.on('vibrate', (data, username) => {
-  document.getElementById('heading').textContent = 'joe'
-  window.navigator.vibrate([100, 30, 100, 30, 100, 30, 200, 30, 200, 30, 200, 30, 100, 30, 100, 30, 100])
+socket.on('vibrate', () => {
+  console.log('starting')
+  document.getElementById('play-button').textContent = 'playing'
+  document.getElementById('video').play()
+  window.setTimeout(() => {
+    console.log('joe')
+    window.navigator.vibrate(1500)
+  }, 53500)
+
+  window.setTimeout(() => {
+    console.log('alarm')
+    window.navigator.vibrate([500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500])
+  }, 73000)
+
+  window.setTimeout(() => {
+    console.log('alarm 2')
+    window.navigator.vibrate([500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500])
+  }, 163000)
 })
 
-button.addEventListener('click', ()=>{vibrate(1000)})
+// button.addEventListener('click', vibratePattern)
 
-buttonSec.addEventListener('click', vibratePattern)
+// buttonSec.addEventListener('click', vibratePattern)

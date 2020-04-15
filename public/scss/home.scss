@@ -1,0 +1,15 @@
+@import 'main';
+
+.home {
+  .container {
+    img {
+      width: 60vw;
+      max-width: 200px;
+    }
+  }
+
+  .content {
+    padding: 3em 4em;
+    text-align: center;
+  }
+}

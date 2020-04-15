@@ -3,8 +3,13 @@ const app = express()
 const path = require('path')
 const socket = require('socket.io')
 
-const server = app.listen(3000, '192.168.2.5', () => {
-  console.log('listening on port: 3000')
+// const server = app.listen(3000, '192.168.2.5', () => {
+//   console.log('listening on port: 3000')
+// })
+
+// Setting up port for express to use
+const server = app.listen(process.env.PORT || 3000, () => {
+  console.log('listening on port: ', process.env.PORT)
 })
 
 const io = socket(server)

@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "parcel serve ./public/index.html --host 192.168.2.5",
-    "dev": "nodemon app.js",
-    "watch": "parcel watch ./public/index.html"
+    "watch": "parcel watch ./public/*.html"
   },
   "repository": {
     "type": "git",
@@ -23,6 +22,7 @@
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
+    "dotenv": "^8.2.0",
     "nodemon": "^2.0.3",
     "parcel": "^1.12.4"
   }
