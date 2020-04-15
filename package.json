@@ -4,6 +4,7 @@
   "description": "//Interactie ontwerpen: Rapid prototypen en testen met echte mensen",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "parcel serve ./public/index.html --host 192.168.2.5",
     "watch": "parcel watch ./public/*.html"
   },
