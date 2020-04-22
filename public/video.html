@@ -5,15 +5,72 @@
   <title>Web Design - Marie</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./scss/explain.scss">
 </head>
-<body class="explain">
-  <div class="grain"></div>
+<body class="video">
   <div class="container">
-    <div class="content">
-      <p>Click the play button on your mobile device and the video will start</p>
+    <div class="video-container">
+<!--       <p>Click the play button on your mobile device and the video will start</p> -->
       <video src="./img/Insidious.2010.720p.BrRip.x264.YIFY.mp4" id="video"></video>
-      <button id="play-button">Click to play video</button>
+      <a id="play-button">Click to play video</a>
+    </div>
+    <div class="subtitle-container">
+      <div class="elements">
+        <div class="beeping-monitor-container"></div>
+        <div class="footsteps-container">
+          <img src="./img/svg/footstep-top.svg" alt="footstep left" id="footstep-top-1">
+          <img src="./img/svg/footstep-bottom.svg" alt="footstep right" id="footstep-bottom-1">
+          <img src="./img/svg/footstep-top.svg" alt="footstep left" id="footstep-top-2">
+          <img src="./img/svg/footstep-bottom.svg" alt="footstep right" id="footstep-bottom-2">
+          <img src="./img/svg/footstep-top.svg" alt="footstep left" id="footstep-top-3">
+          <img src="./img/svg/footstep-bottom.svg" alt="footstep right" id="footstep-bottom-3">
+        </div>
+        <div class="back-door">
+          <div class="door" id="door">
+          </div>
+        </div>
+        <div id="knock-door">
+          <p class="knock">Knock</p>
+          <p class="knock">Knock</p>
+          <p class="knock">Knock</p>
+        </div>
+        <div id="knock-door-2">
+          <p class="knock-2">Knock</p>
+          <p class="knock-2">Knock</p>
+          <p class="knock-2">Knock</p>
+        </div>
+      </div>
+      <div class="subtitles">
+        <p id="s01">(Heart monitor beeping)</p>
+        <p id="s02">(Odd noice)</p>
+        <p id="d01">Something really weird happened to me today.</p>
+        <p id="d02">Huh, what</p>
+        <p id="d03">I heard this noice coming from Cali’s room.</p>
+        <p id="d04">It was on the baby monitor. It was like… voices.</p>
+        <p id="d05">And I ran up here and had a look, but there was no one in there.</p>
+        <p id="d06">Hmm, it’s probably just interference.</p>
+        <p id="d07">Those things are always picking up somebody’s signal.</p>
+        <p id="d08">Aaah I dunno. It sounded so clear.</p>
+        <p id="d09">It was like this… whispering.</p>
+        <p id="d10">It scared the hell out of me.</p>
+        <p id="d11">I… I was at the piano and I could hear it on the monitor.</p>
+        <p id="d12">And I turned up the volume and (Banging)</p>
+        <p id="d13">What the hell was that?</p>
+        <p id="d14">(Banging) Hold on. Stay here.</p>
+        <p id="d15">Who is it?</p>
+        <p id="d16">Hello?</p>
+        <p id="d17" class="xlarge">OH MY GOD, JOSH! JOSH!!</p>
+        <p id="d18" class="large">Please come into Cali’s room.</p>
+        <p id="d19" class="large">Someone’s in Cali’s room! There’s someone there!</p>
+        <p id="d20">I saw somebody.</p>
+        <p id="d21" class="large">He was standing right there! He was standing right there!!</p>
+        <p id="d22">There’s nobody here…</p>
+        <p id="d23">I saw someone. (Alarm)</p>
+        <p id="d24">Okay, okay, take her, get Foster, go into Dalton’s room.</p>
+        <p id="d25">Foster!! What’s going on? The alarm has gone off.</p>
+        <p id="d26">(Alarm) Goddammit.</p>
+      </div>
     </div>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>

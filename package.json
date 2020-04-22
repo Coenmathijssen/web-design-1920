@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node app.js",
     "test": "parcel serve ./public/index.html --host 192.168.2.5",
-    "watch": "parcel watch ./public/*.html"
+    "watch": "parcel watch ./public/*.html",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -20,10 +21,12 @@
   "homepage": "https://github.com/Coenmathijssen/web-design-1920#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "gsap": "^3.2.6",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
+    "greensock": "^1.20.2",
     "nodemon": "^2.0.3",
     "parcel": "^1.12.4"
   }

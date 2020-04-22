@@ -1,0 +1,134 @@
+.beeping-monitor-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: url('../img/pulse.png');
+  background-size: 120%;
+  background-repeat: repeat-x;
+  animation: move 70s linear infinite;
+  opacity: 0;
+}
+
+@keyframes move {
+    from {background-position:0 0;}
+    to {background-position: 1000vw 0;}
+}
+
+.footsteps-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+
+  img {
+    position: absolute;
+    width: 25%;
+    transform: translateY(-50%);
+    opacity: 0;
+
+    &:nth-of-type(odd) {
+      top: 55%;
+    }
+
+    &:nth-of-type(even) {
+      top: 85%;
+    }
+
+    &:nth-of-type(2) {
+      left: 10%;
+    }
+
+    &:nth-of-type(3) {
+      left: 30%;
+    }
+
+    &:nth-of-type(4) {
+      left: 40%;
+    }
+
+    &:nth-of-type(5) {
+      left: 60%;
+    }
+
+    &:nth-of-type(6) {
+      left: 70%;
+    }
+  }
+}
+
+.back-door {
+  background-color: #191919;
+  position: relative;
+  width: 25%;
+  height: 90%;
+  margin: auto;
+  margin-top: 2.5%;
+  opacity: 0;
+}
+
+.door {
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+
+  &::after {
+    content: '';
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+  }
+
+  &#door {
+    transform-origin: left;
+    transform: perspective(1200px) rotateY(-80deg);
+  }
+}
+
+#knock-door, #knock-door-2 {
+  position: absolute;
+  width: 25%;
+  height: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  opacity:0;
+
+  &::after {
+    content: '';
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+  }
+
+  p {
+    margin: 2px 0;
+    font-family: arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    opacity: 0;
+  }
+}
+
