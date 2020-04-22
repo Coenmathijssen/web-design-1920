@@ -88,5 +88,49 @@ De leraren deden doorschemeren dat ze het huidige concept best tof en orgineel v
 
 ### Concept verder ontwikkelen
 Ik heb gekozen om closed captions uit te werken voor een fragment uit de film Insidious gekozen. Dit is een (redelijk) goede horror film met redelijk wat jump scares. Dit past perfect bij mijn concept dus. Ik heb een fragment uitgekozen waar een aantal jump scares in voorkomen die ik kan uitwerken met trillingen. Daarnaast zitten er genoeg achtergrond geluiden in waar ik wat nuttigs mee zou kunnen doen met closed captions. Deze heb ik uitgeschreven op papier:
+![image](https://user-images.githubusercontent.com/43337909/79979052-327ee700-84a1-11ea-89f4-a48524998642.png)
+
+# Week 3
+Ik heb het fragment een aantal keer geanalyseerd en heb alle dialoog en geluiden genoteerd:
+
+**Dialoog**
+Dialoog:
+1.	01:08-01:11 = ‘Something really weird happened to me today.’ (68 – 71)
+2.	01:11-01:12 = ‘Huh, what?’ (71 – 72)
+3.	01:13-01:15 =  ‘I heard this noice coming from Cali’s room’ (73 – 75)
+4.	01:15,5-01:19 = ‘It was on the baby monitor. It was like… voices.’ (75,5 – 79)
+5.	01:19-01:22 = ‘And I ran up here and had a look, but there was no one in there’. (79 – 82)
+6.	01:24-01:26 = ‘Hmm, it’s probably just interference.’ (84 – 86)
+7.	01:26-01:28,5 = ‘Those things are always picking up somebody’s signal.’ (86 – 88)
+8.	01:28,5-01:31 = Aaah I dunno. It sounded so clear.’ (88 – 91)
+9.	01:31-01:33 = ‘It was like this… whispering.’ (91 – 93)
+10.	01:34-01:36 = ‘It scared the hell out of me.’ (94 – 96)
+11.	01:36-01:38,5 = ‘I… I was at the piano and I could hear it on the monitor.’ (96 – 98,5)
+12.	01:38,5-01:41 = ‘And I turned up the volume and’ (98.5 – 101)
+13.	01:43-01:44 = ‘What the hell was that’ (103 – 104)
+14.	01:49-01:52 = ‘Hold on. Stay here.’ (109 – 112)
+15.	02:11-02:22 = ‘Who is it?’ (131 – 132)
+16.	02:48-02:49 = ‘Hello?’ (168 – 169)
+17.	03:24-03:26 = ‘OH MY GOD, JOSH! JOSH!!’ (204 – 206)
+18.	03:26-03:28 = ‘Please come into Cali’s room.’ (206 – 208)
+19.	03:28-03:30 = ‘Someone’s in Cali’s room! There’s someone there!’ (208 – 210)
+20.	03:30-03:31 = ‘I saw somebody.’ (210 – 211)
+21.	03:34-03:36 = ‘He was standing right there! He was standing right there!!’ (214 – 216)
+22.	03:40-03:41 = ‘There’s nobody here…’ (220 – 221)
+23.	03:41-03:42 = ‘I saw someone.’ (221 – 222)
+24.	03:44-03:48 = ‘Okay, okay, take her, get Foster, go into Dalton’s room.’ (224 – 228)
+25.	04:03-04:05 = ‘Foster!! What’s going on? The alarm has gone off’ (243 – 245)
+26.	05:13-05:14 = ‘Goddammit.’ (313 – 314)
+
+**geluiden**
+1. 00:09-1:05 = beeping monitor (9 – 65)
+2. 00:35-00:39 = voetstappen (35 – 39)
+3. 00:45-00:49 = deur kraakt dicht tot kiertje (45 – 49)
+4. 00:53-00:56 = deur helemaal dicht (53 - 56)
+5. 01:04-01:06 = geluid en voetstappen (64 – 66)
+6. 01:41-01:43 = banging on door (101 – 103)
+7. 01:48-01:49 = banging on door (108 – 109)
+8. 03:11-03:24 = baby crying (191 – 204)
+
 
 
