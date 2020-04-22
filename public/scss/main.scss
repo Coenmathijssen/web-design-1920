@@ -66,3 +66,33 @@ a {
     transition: all .3s;
   }
 }
+
+#mobile {
+  visibility: hidden;
+}
+
+#play-button {
+  visibility: hidden;
+}
+
+@media only screen and (max-device-width : 1024px) {
+  video {
+    visibility: hidden;
+  }
+
+  #play-button {
+    visibility: visible;
+  }
+
+  #mobile {
+    visibility: visible;
+  }
+
+  .subtitle-container {
+    visibility: hidden;
+  }
+
+  #laptop {
+    visibility: hidden;
+  }
+}

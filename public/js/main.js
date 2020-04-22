@@ -33,3 +33,11 @@ socket.on('vibrate', () => {
     window.navigator.vibrate([500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500])
   }, 313000)
 })
+
+document.getElementById('laptop').addEventListener('click', () => {
+  document.getElementById('laptop').style = 'display: none'
+})
+
+document.getElementById('mobile').addEventListener('click', () => {
+  document.getElementById('mobile').style = 'display: none'
+})
