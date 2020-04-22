@@ -89,3 +89,4 @@ De leraren deden doorschemeren dat ze het huidige concept best tof en orgineel v
 ### Concept verder ontwikkelen
 Ik heb gekozen om closed captions uit te werken voor een fragment uit de film Insidious gekozen. Dit is een (redelijk) goede horror film met redelijk wat jump scares. Dit past perfect bij mijn concept dus. Ik heb een fragment uitgekozen waar een aantal jump scares in voorkomen die ik kan uitwerken met trillingen. Daarnaast zitten er genoeg achtergrond geluiden in waar ik wat nuttigs mee zou kunnen doen met closed captions. Deze heb ik uitgeschreven op papier:
 
+
