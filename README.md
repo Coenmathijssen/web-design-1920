@@ -90,11 +90,10 @@ De leraren deden doorschemeren dat ze het huidige concept best tof en orgineel v
 Ik heb gekozen om closed captions uit te werken voor een fragment uit de film Insidious gekozen. Dit is een (redelijk) goede horror film met redelijk wat jump scares. Dit past perfect bij mijn concept dus. Ik heb een fragment uitgekozen waar een aantal jump scares in voorkomen die ik kan uitwerken met trillingen. Daarnaast zitten er genoeg achtergrond geluiden in waar ik wat nuttigs mee zou kunnen doen met closed captions. Deze heb ik uitgeschreven op papier:
 ![image](https://user-images.githubusercontent.com/43337909/79979052-327ee700-84a1-11ea-89f4-a48524998642.png)
 
-# Week 3
+## Week 3
 Ik heb het fragment een aantal keer geanalyseerd en heb alle dialoog en geluiden genoteerd:
 
 **Dialoog**
-Dialoog:
 1.	01:08-01:11 = ‘Something really weird happened to me today.’ (68 – 71)
 2.	01:11-01:12 = ‘Huh, what?’ (71 – 72)
 3.	01:13-01:15 =  ‘I heard this noice coming from Cali’s room’ (73 – 75)
@@ -131,6 +130,11 @@ Dialoog:
 6. 01:41-01:43 = banging on door (101 – 103)
 7. 01:48-01:49 = banging on door (108 – 109)
 8. 03:11-03:24 = baby crying (191 – 204)
+
+### Probleem oplossen voor de test
+Nadat ik mijn app had gedeployed, kwam ik erachter dat de video niet afspeelt op een ander apparaat, wanneer je op play drukt met je mobiel. Ik kwam erachter dat je eerst op beide apparaten interactie moet hebben op de website, voordat je een video kan afspelen via een socket event. 
+
+### Second meeting
 
 
 
