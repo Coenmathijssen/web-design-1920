@@ -57,8 +57,7 @@ export function startSubtitles () {
     .to('#d24', 0, { opacity: 0 }, 228)
     .to('#d25', 0, { opacity: 1 }, 243)
     .to('#d25', 0, { opacity: 0 }, 245)
-    .to('#d26', 0, { opacity: 1 }, 312)
-    .to('#d26', 0, { opacity: 0 }, 314)
+    .to('#s02', 0, { opacity: 0 }, 314)
 
   const tlAnimationBeep = gsap.timeline()
 
@@ -104,12 +103,6 @@ export function startSubtitles () {
   const tlAnimationDoor = gsap.timeline()
 
   tlAnimationDoor
-    .to('.back-door', 0, { opacity: 1 }, 45)
-    .to('.door', 0, { opacity: 1 }, 45)
-    .to('#door', 4, { rotateY: '-60deg' }, 45)
-    .to('#door', 3, { rotateY: '-0deg' }, 53)
-    .to('.back-door', 0, { opacity: 0 }, 56)
-    .to('.door', 0, { opacity: 0 }, 56)
     .to('#knock-door', 0, { opacity: 1 }, 101)
     .staggerTo('.knock', 1.2, {
       opacity: 1,

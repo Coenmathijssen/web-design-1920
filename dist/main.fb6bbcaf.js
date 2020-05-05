@@ -5800,9 +5800,7 @@ function startSubtitles() {
     opacity: 1
   }, 243).to('#d25', 0, {
     opacity: 0
-  }, 245).to('#d26', 0, {
-    opacity: 1
-  }, 312).to('#d26', 0, {
+  }, 245).to('#s02', 0, {
     opacity: 0
   }, 314);
 
@@ -5878,19 +5876,7 @@ function startSubtitles() {
 
   var tlAnimationDoor = _gsap.gsap.timeline();
 
-  tlAnimationDoor.to('.back-door', 0, {
-    opacity: 1
-  }, 45).to('.door', 0, {
-    opacity: 1
-  }, 45).to('#door', 4, {
-    rotateY: '-60deg'
-  }, 45).to('#door', 3, {
-    rotateY: '-0deg'
-  }, 53).to('.back-door', 0, {
-    opacity: 0
-  }, 56).to('.door', 0, {
-    opacity: 0
-  }, 56).to('#knock-door', 0, {
+  tlAnimationDoor.to('#knock-door', 0, {
     opacity: 1
   }, 101).staggerTo('.knock', 1.2, {
     opacity: 1,
@@ -5916,36 +5902,37 @@ function startSubtitles() {
 var _subtitles = require("./subtitles.js");
 
 // Make connection
-var socket = io();
-var button = document.getElementById('play-button'); // Emit events
-
-button.addEventListener('click', function () {
-  socket.emit('vibrate');
-}); // Listen for events
+var socket = io(); // Listen for events
 // Listening for een chat output
 
 socket.on('vibrate', function () {
   console.log('starting');
-  document.getElementById('play-button').textContent = 'playing';
   document.getElementById('video').play();
+  document.getElementById('laptop-2').classList.remove('visible');
   (0, _subtitles.startSubtitles)();
-  window.setTimeout(function () {
-    console.log('jump scare');
-    window.navigator.vibrate(1500);
-  }, 203000);
-  window.setTimeout(function () {
-    console.log('alarm');
-    window.navigator.vibrate([500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500]);
-  }, 223500);
-  window.setTimeout(function () {
-    console.log('alarm 2');
-    window.navigator.vibrate([500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500]);
-  }, 313000);
+
+  if ('vibrate' in navigator) {
+    window.setTimeout(function () {
+      console.log('jump scare');
+      window.navigator.vibrate(1500);
+    }, 203000);
+    window.setTimeout(function () {
+      console.log('alarm');
+      window.navigator.vibrate([500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500]);
+    }, 223500);
+    window.setTimeout(function () {
+      console.log('alarm 2');
+      window.navigator.vibrate([500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500, 500, 1500]);
+    }, 313000);
+  }
 });
-document.getElementById('laptop').addEventListener('click', function () {
-  document.getElementById('laptop').style = 'display: none';
+document.getElementById('laptop-btn').addEventListener('click', function () {
+  document.getElementById('laptop-1').style = 'display: none';
+  document.getElementById('laptop-2').classList.add('visible');
 });
-document.getElementById('mobile').addEventListener('click', function () {
+document.getElementById('play-btn').addEventListener('click', function () {
+  // Start video and vibration
+  socket.emit('vibrate');
   document.getElementById('mobile').style = 'display: none';
 });
 },{"./subtitles.js":"js/subtitles.js"}],"../node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
@@ -5976,7 +5963,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50386" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51779" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

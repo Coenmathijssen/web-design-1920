@@ -7,22 +7,30 @@
   .video-container {
     position: relative;
     height: 80vh;
+    width: 100vw;
 
-    a {
+    video {
+      width: 100%;
+    }
+
+    #laptop-1, #laptop-2, #mobile {
       position: absolute;
+      width: calc(100% - 40px);
+      top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      background: black;
+      padding: 20px;
+      padding-bottom: 30px;
+      padding-bottom: 30px;
+      text-align: center;
+    }
 
-      &:first-of-type {
-        top: 30%;
-      }
+    #laptop-2 {
+      visibility: hidden;
 
-      &:nth-of-type(2) {
-        top: 50%;
-      }
-
-      &:nth-of-type(3) {
-        top: 70%;
+      &.visible {
+        visibility: visible;
       }
     }
   }
@@ -71,5 +79,17 @@
         }
       }
     }
+  }
+}
+
+@media only screen and (max-device-width: 812px) {
+  #laptop-1, #laptop-2 {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-device-width: 813px) {
+  #mobile {
+    visibility: hidden;
   }
 }
