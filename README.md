@@ -26,9 +26,14 @@ Dit vak gaat geheel over exclusive design. Kort samengevat: een design op maat g
 ### Over dit vak
 Vandaag kregen we te horen wat de planning is voor de aankomende weken. We gaan werken aan een exclusive design. Dit is een design wat volledig ontworpen is voor een persoon. Het is dus op maat gemaakt.
 
+### Eerste concept
+Een hoop genres films en series komen nog prima over zonder geluid. Dit zijn voornamelijk genres waarbij geluid niet heel veel emotie hoeft over te brengen. Een genre waarbij het ontbreken van geluid een enorm gemis is? Horror en thriller. Ik dacht meteen terug aan vroeger. Dat ik als puber met vrienden naar de bioscoop ging om een nieuwe horror film te kijken. In de bioscoop was het altijd zoveel enger dan thuis. Hoe komt dat toch? Door het geluid. Probeer maar eens een horror film te kijken zonder. Geluid maakt een horror film. Voornamelijk jumpscares worden pas écht eng met een passend hard geluid. Voor Marie ontbreekt dit natuurlijk. Dus ik zat na te denken hoe ik deze ervaring tóch zo goed mogelijk over kan brengen voor Marie. Ik kwam op het volgende:
+
+Geluid is eigenlijk niets meer dan trilling in de lucht. Het geluid kan Marie dan weliswaar niet horen, maar de trilling wel. De trilling kan je namelijk voelen in je lichaam. Ik had wel eens gehoord van dove mensen die naar festivals gaan, omdat die ritmische trillingen heel fijn voelt. Wat nou als ik de angst die geluid brengt bij horror kan vervangen door trilling? Door middel van een socket verbinding en de navigator.vibrate() API kan ik trillingen synchroon laten lopen met video. Zo kan ik de angst die geluid brengt vervangen door trilling.  
+
 Ik ga dit concept voorleggen, kijken of ik in de goede richting zit of dat ik het heel ergens anders moet zoeken.
 
-### First meeting
+### Eerste meeting
 Vandaag hebben we de eerste meeting met Marie. Omdat de eerste meeting is, gaat ons hele groepje veel algemene vragen stellen. Door de beperkte tijd en om te voorkomen dat er dubbele vragen zijn, hebben we besloten om samen een aantal vragen op te stellen. Deze hebben we losjes verdeeld, zodat iedereen wijzer kon worden van deze algemene kennis. Daarnaast had ik een aantal vragen gerelateerd aan mijn idee/concept. 
 
 #### Vragen
@@ -59,8 +64,6 @@ Vandaag hebben we de eerste meeting met Marie. Omdat de eerste meeting is, gaat 
 - Zou je het fijn vinden als de closed captions visueel ook aangeven of een geluid hard/zacht is (bijvoorbeeld: ipv dat er *screaming* in de CC staat is de CC tekst een grotere font-size)
 - Wat zijn volgens jou de huidige problemen met CC?
 
-
-
 #### Belangrijkste bevindingen
 - Interactiviteit, gebruiksvriendelijkheiid en multidevice zijn belangrijk voor Marie tijdens het kijken van een video.
 - Closed captions kijkt Marie eigenlijk altijd in het Engels. Dan krijgt ze de taal direct binnen en snapt ze het best wat er bedoeld wordt. Als ze vertaalde ondertitels leest, heeft ze toch het gevoel dat iemand met de vertaling toch nog bepaalde keuzes heeft gemaakt met het vertalen van de informatie.
@@ -85,7 +88,7 @@ Ik ben druk bezig geweest om een werkend gecodeerd concept te bouwen. Dit is gel
 
 De app staat op https://webdesign-coen.herokuapp.com/ gedeployed.
 
-### Second meeting
+### Tweede meeting
 Vandaag is het een kwestie van bovenstaande vragen beantwoorden en de ervaring met het eerste prototype te toetsen. Om een realistischere setting te geven, heb ik er één geschreven die ik ga voorleggen:
 
 Het liefste zou ik willen dat je het een beetje donker maakt in de kamer, om een goede setting te creëeren. Stel je voor dat je nu op een Winterse vrijdavond alleen thuis bent en een horror film besluit te kijken. De openhaart is aan en de lichten staan uit. Bezoek de website en laat je leiden. Sidenote: de introductieschermen moet je op beide apparaten doorklikken. Ik had te weinig tijd om dit elegant op te lossen.
@@ -146,7 +149,7 @@ Ik heb het fragment een aantal keer geanalyseerd en heb alle dialoog en geluiden
 ### Probleem oplossen voor de test
 Nadat ik mijn app had gedeployed, kwam ik erachter dat de video niet afspeelt op een ander apparaat, wanneer je op play drukt met je mobiel. Ik kwam erachter dat je eerst op beide apparaten interactie moet hebben op de website, voordat je een video kan afspelen via een socket event. 
 
-### Second meeting
+### Derde meeting
 
 
 
