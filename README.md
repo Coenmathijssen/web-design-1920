@@ -1,14 +1,26 @@
 # Web Design @cmda-minor-web 1920
-//Interactie ontwerpen: Rapid prototypen en testen met echte mensen
+Dit vak gaat geheel over exclusive design. Kort samengevat: een design op maat gemaakt voor één persoon. Het is dus belangrijk dat het design volledig aansluit op deze persoon z'n wensen. Daarbij moet je denken aan wat deze persoon leuk vindt, hoe hij of zij werkt, wat valkuilen zijn in algemeen design, etc. 
 
-Web Design gaat over het ontwerpen en testen van Interactie. Het voordeel van een Frontend Developer (en Web Designer) is dat die techniek begrijpt, kan toepassen én verstand heeft van UX en design. Als je Web technieken begrijpt kun je je ideeën snel prototypen en testen met echte gebruikers, in een browser. Je kan dan aanpassingen doorvoeren, uitproberen en weer testen ...
+- **Wie:** Marie van Driessche. Marie is Doof (met een hoofdletter inderdaad, dat betekent dat ze zichzelf als Doof identificeert, wat simpelgezegd betekent dat haar eerste taal Nederlandse Gebarentaal is). Je zult begrijpen dat Marie moeite heeft met dingen waar geluid een grote rol speelt. Marie is interaction designer, werkzaam bij de op de digitale afdeling van de NPO. Marie komt over als iemand die zeer positief in het leven staat en er zin in heeft. Haar hobbies zijn haar werk, yoga, koken en kickboxen. 
 
-In het vak Web design gaan we dingen ontwerpen voor echte mensen. Is er goede interactie? Kan je 'mens' je product op een prettige manier bedienen? Wat voor principes heb je gebruikt en getest? En zit er wel _nonsense_ in?
+- **Wat:** Hoe werkt closed captions voor Marie? Hoe kan je dit binnen een inclusive design leuker, beter en met meer emotie ontwerpen?
 
-
-## Opdracht 1 
-- **Wie:** Marie van Driessche. Marie is Doof (met een hoofdletter inderdaad, dat betekent dat ze zichzelf als Doof identificeert, wat simpelgezegd betekent dat haar eerste taal Nederlandse Gebarentaal is). Je zult begrijpen dat Marie moeite heeft met dingen waar geluid een grote rol speelt.
-- **Wat:** Hoe werkt closed captions voor Marie?
+## Installeren
+1. Open je terminal op je computer
+2. Maak een map aan waar je het project in wil hebben met `mkdir`
+3. Clone de repo met 
+<br></br>
+`https://github.com/Coenmathijssen/functional-programming.git`
+<br></br>
+4. Navigeer via je terminal naar de repo met `cd`. Installeer vervolgens de benodigde dependencies met
+<br></br>
+`npm install`
+<br></br>
+5. Voor het builden, bundlen en compilen (om te publiceren) van de javascript gebruik
+<br></br>
+`npm run build`
+<br></br>
+6. Open de index.html in je browser om de website te bekijken
 
 ## Week 1
 ### Over dit vak
