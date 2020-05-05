@@ -135,6 +135,9 @@
   padding-bottom: 30px;
   text-align: center;
 }
+.video .video-container #laptop-1 h1 {
+  padding-bottom: 1em;
+}
 .video .video-container #laptop-2 {
   visibility: hidden;
 }
