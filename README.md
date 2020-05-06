@@ -7,7 +7,7 @@ Dit vak gaat geheel over exclusive design. Kort samengevat: een design op maat g
 [Bekijk hier de documentatie](https://github.com/Coenmathijssen/web-design-1920/wiki)
 
 ## Live link
-[Bekijk hier de live demo](https://webdesign-coen.herokuapp.com/video.html)
+[Bekijk hier de live demo](https://webdesign-coen.herokuapp.com)
 
 ## Installeren
 1. Open je terminal op je computer
