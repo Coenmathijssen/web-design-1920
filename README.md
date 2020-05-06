@@ -1,6 +1,12 @@
 # Web Design @cmda-minor-web 1920
 Dit vak gaat geheel over exclusive design. Kort samengevat: een design op maat gemaakt voor één persoon. Het is dus belangrijk dat het design volledig aansluit op deze persoon z'n wensen. Daarbij moet je denken aan wat deze persoon leuk vindt, hoe hij of zij werkt, wat valkuilen zijn in algemeen design, etc. 
 
+## Documentation
+[Bekijk hier de documentatie](https://github.com/Coenmathijssen/web-design-1920/wiki)
+
+## Live link
+[Bekijk hier de live demo](https://webdesign-coen.herokuapp.com/video.html)
+
 ## Installeren
 1. Open je terminal op je computer
 2. Maak een map aan waar je het project in wil hebben met `mkdir`
